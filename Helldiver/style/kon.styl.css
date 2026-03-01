@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(80, 157, 180);
+}
+header{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(42, 115, 199);
+    border-radius: 20px ;
+}
+#ima1{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+#sol,#sol_1,#sol_2{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(42,115,199);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    justify-items: center;
+    clear: both;
+    border-radius: 20px;
+}
+.text{
+ color: black;
+}
+.textt{
+color: black;
+margin: 10px;
+padding: 10px;
+width: auto;
+object-fit: cover;
+}
+menu{
+    background-color: rgb(39, 103, 187);
+    border-radius: 20px;
+    display: grid;
+    /* 3 kolumny, każda dopasowuje się do zawartości */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+.fot{
+    width: 100px;
+}
+.karta {
+    display: flex;          /* Zdjęcie i dane OBOK SIEBIE */
+    align-items: center;    /* Wyrównanie w pionie */
+    background: rgba(255, 255, 255, 0.1); /* Opcjonalne tło dla czytelności */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
