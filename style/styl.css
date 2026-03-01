@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(80, 157, 180);
+}
+header{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(42, 115, 199);
+    border-radius: 20px ;
+}
+#ima1{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+#sol,#sol_1,#sol_2{
+    margin: 10px;
+}
+div{
+    width: 130px;
+    height: auto;
+    border-radius: 50px ;
+    background-color: rgb(1, 194, 194);
+    padding: 30px;
+    margin: 1;
+    float: left;
+}
+.tt{
+    color: white;
+    line-height: 120px;
+    text-align: center;
+}
+MENU{
+    background-image: url(../img/221633.gif), url(../img/000IML7543238Y60-C323-F4.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    height: 630px;
+}
+.immg{
+    height: 175px;
+    width: auto;
+    border-radius: 20px;
+}
+.i{
+    display: flex;
+    align-self: flex-end;
+    margin: 10px;
+}
+#tet{
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    margin: 10px;
+    width: 30%;
+
+}
+.lost{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    margin: 1%;
+    padding: 1%;
+} 
+
+footer{
+    background-color: rgb(42,115,199);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    justify-items: center;
+    clear: both;
+    border-radius: 20px;
+    
+}
+.fot{
+    color: black;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+.textt{
+    color:black;
+}
