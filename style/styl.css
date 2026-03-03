@@ -35,7 +35,7 @@ div{
     text-align: center;
 }
 MENU{
-    background-image: url(../img/221633.gif), url(../img/000IML7543238Y60-C323-F4.gif);
+    background-image: url(../img/221633.giif), url(../img/000IML7543238Y60-C323-F4.gif);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
@@ -91,3 +91,4 @@ a{
 .textt{
     color:black;
 }
+
